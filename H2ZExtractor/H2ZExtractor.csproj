@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8013CFDA-06CB-453C-A14F-F3A82E37879C}</ProjectGuid>
+    <ProjectGuid>{6117FFF0-3A95-47A0-9053-316AE22867A1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>H2ZExtractor</RootNamespace>
     <AssemblyName>H2ZExtractor</AssemblyName>
@@ -42,10 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decoder.cs" />
     <Compile Include="HizArchive.cs" />
     <Compile Include="HizFile.cs" />
+    <Compile Include="HizReader.cs" />
+    <Compile Include="HizWriter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools.cs" />
     <Compile Include="Unzip.cs" />
   </ItemGroup>
   <ItemGroup>
